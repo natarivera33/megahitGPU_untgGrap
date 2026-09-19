@@ -57,11 +57,7 @@ The NVIDIA GPU must have a CUDA Compute Capability supported by the installed CU
 
 ## Hardware used in the experiments
 
-The original scalability experiments reported in the manuscript were performed using an **NVIDIA GeForce GTX 1650 GPU**.
-
-Additional large-scale experiments using metagenomic datasets containing several million sequences were performed on a server equipped with an **NVIDIA GeForce RTX 3090 GPU**, due to the larger GPU-memory requirements of these datasets.
-
-Because these experiments use different hardware platforms, the large-scale server experiments should be considered a complementary evaluation rather than a direct extension of the GTX 1650 scalability curve.
+The scalability experiments reported in the manuscript were performed using an **NVIDIA GeForce GTX 1650 GPU**.
 
 ---
 
@@ -205,8 +201,6 @@ The study also evaluates six paired-end anaerobic digestion metagenomic datasets
 | AS_C6_7135k | 7,135,312 |
 
 Because of their size, the complete metagenomic datasets are not stored directly in this repository. Please refer to the manuscript and the corresponding dataset source (Callejas et al., 2025) for their provenance and availability.
-
-Additional large-scale experiments performed during the revised evaluation include **AS_C4_5867k** and **AS_C5_6283k**.
 
 ---
 
